@@ -7,16 +7,6 @@ const fadein = keyframes`
     transform: scale(1);
   }
 `;
-export const HeroContainer = styled(Box)`
-  position: relative;
-  height: 600px;
-  margin: 0;
-  overflow: hidden;
-  @media (max-width: 768px) {
-    height: 550px;
-  }
-`;
-
 
 export const DesktopContainer = styled(Box)`
   display: block;
@@ -106,15 +96,28 @@ export const HeroTitle = styled(Typography)`
 `;
 
 export const HeroButton = styled(Button)`
-  position: absolute;
-  bottom: 10px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  font-size: 20px;
-  left: 50%;
-  background: #5ca4ea;
-  color: #fff;
-  z-index: 1;
-  transform: translate(-50%, 0);
+  display: inline-flex;
+`;
+
+export const HeroContainer = styled(Box)`
+  position: relative;
+  height: 600px;
+  margin: 0;
+  overflow: hidden;
+  ${HeroButton} {
+    position: absolute;
+    bottom: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    left: 50%;
+    background: #5ca4ea;
+    color: #fff;
+    z-index: 1;
+    transform: translate(-50%, 0);
+  }
+  @media (max-width: 768px) {
+    height: 550px;
+  }
 `;
