@@ -8,35 +8,6 @@ const fadein = keyframes`
   }
 `;
 
-export const DesktopContainer = styled(Box)`
-  display: block;
-  iframe {
-    margin-top: -63px !important;
-    margin-bottom: -63px;
-  }
-  @media (max-width: 1024px) {
-    display: none;
-  }
-`;
-
-export const MobileContainer = styled(Box)`
-  display: none;
-  @media (min-width: 768px) {
-    display: block;
-    iframe {
-      margin-top: -200px;
-      margin-left: -111px;
-    }
-  }
-  @media (max-width: 768px) {
-    display: block;
-    iframe {
-      margin-top: -219px;
-      margin-left: -168px;
-    }
-  }
-`;
-
 export const HeroFrame = styled.iframe`
   position: absolute;
   top: 0;
