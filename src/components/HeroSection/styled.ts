@@ -44,6 +44,17 @@ export const HeroFrame = styled.iframe`
   bottom: 0;
   right: 0;
   z-index: 0;
+  margin-top: -63px;
+  margin-bottom: -63px;
+  width: 100%;
+  height: 800px;
+
+  @media (max-width: 768px) {
+    width: 1000px;
+    height: 1000px;
+    margin-top: -219px;
+    margin-left: -168px;
+  }
 `;
 
 export const Shadow = styled(Box)`
@@ -64,7 +75,7 @@ export const HeroContent = styled(Box)`
   left: 50%;
   bottom: 0;
   transform: translate(-50%, -50%);
-  color: #fff;
+  color: #000;
   text-align: center;
 `;
 
