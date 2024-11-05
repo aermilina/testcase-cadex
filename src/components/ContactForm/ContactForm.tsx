@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useFormik, FormikProvider } from 'formik';
 import { Container, Button, Typography, Box } from '@mui/material';
 import InputField from './InputField';
-import { FieldValues } from '@/app/types';
+import { FieldValues } from '@/types';
 import * as S from './styled';
 import * as Yup from 'yup';
 
