@@ -14,6 +14,7 @@ This project includes various stylistic elements and animations:
 
 * Background Video: A YouTube video is used as the background for the first section.
 * Sticky Header & Footer: The header is sticky, while the footer is fixed on mobile for better usability. On desktop, the footer is non-sticky.
+* Appearing of the main title 
 * "Contact Us" Link Animations: Two animations for the "Contact Us" link:
 * * SVG Animation: Shown when hovering over the link in the header.
 * * Pulse Animation: Applied to buttons within various sections.
