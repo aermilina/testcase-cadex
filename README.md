@@ -1,40 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Project
+
+## Description
+This project is built with Next.js and leverages several popular libraries for frontend development:
+
+* Material UI for component creation
+* styled-components for styling
+* Formik to manage form handling 
+* Yup to manage form validation
+* Next.js API Router to implement backend functionality
+
+## Styles and Animations
+This project includes various stylistic elements and animations:
+
+* Background Video: A YouTube video is used as the background for the first section.
+* Sticky Header & Footer: The header is sticky, while the footer is fixed on mobile for better usability. On desktop, the footer is non-sticky.
+* "Contact Us" Link Animations: Two animations for the "Contact Us" link:
+* * SVG Animation: Shown when hovering over the link in the header.
+* * Pulse Animation: Applied to buttons within various sections.
+* Dynamic Gradient Animation: A gradient animation is used as the background for the third section.
+* Smooth Scrolling Button: A "Down" button in the first section enables smooth scrolling to the next section.
+* SPA Transitions: Smooth Single Page Application (SPA) transitions between pages enhance user experience.
+
+## Optimization and SEO
+To optimize performance and SEO, I have implemented the following techniques:
+
+* Video Loading Delay: Delays video loading to improve initial page performance.
+* SEO and Open Graph Tags: Includes meta tags for search engine optimization and social media sharing.
+* Next Fonts: Optimizes font loading using the Next.js font management feature.
+* YouTube Preconnect: Preconnects to YouTube to speed up video loading.
 
 ## Getting Started
 
-First, run the development server:
+First, you need to install necessary Node modules and pacakages:
+```bash
+yarn 
+#or
+npm install
+```
+Second, start the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can also check the code by eslint 
+``` bash 
+yarn eslint --fix
+```
+## Hosting 
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The project is deployed on Vercel. You can view it at [https://testcase-cadex-2.vercel.app/]https://testcase-cadex-2.vercel.app/
