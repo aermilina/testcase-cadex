@@ -51,4 +51,4 @@ yarn eslint --fix
 ```
 ## Hosting 
 
-The project is deployed on Vercel. You can view it at [https://testcase-cadex-2.vercel.app/]https://testcase-cadex-2.vercel.app/
+The project is deployed on Vercel. You can view it at https://testcase-cadex-2.vercel.app/
